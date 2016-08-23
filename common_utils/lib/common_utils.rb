@@ -11,4 +11,15 @@ class Common_utils
 		end
 		return nil
 	end
+
+	# Execute a shell command
+	# return output
+	# abort if the command throws an error
+	def self.exec_shell(cmd)
+		out = system(cmd)
+		if $?.exitstatus != 0
+			abort "Error: the command #{cmd} failed"
+		end
+		return out
+	end
 end
