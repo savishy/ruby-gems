@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'common_utils'
-  s.version     = '0.0.3'
-  s.date        = '2016-08-22'
+  s.version     = '0.0.4'
+  s.date        = '2016-09-12'
   s.summary     = "Common Utils"
   s.description = "A set of common ruby utilities"
   s.authors     = ["Vishy V"]
